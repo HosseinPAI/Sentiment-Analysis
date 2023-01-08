@@ -1,4 +1,4 @@
-# Sentimental Analysis: LSTM, Bi-LSTM, Pyramid, and BERT models
+## Sentimental Analysis: LSTM, Bi-LSTM, Pyramid, and BERT models
 
 <p align='justify'>
 <strong>Sentimental Analysis</strong> is one of the most exciting topics in machine learning and natural language processing. Based on this analysis, you can find the feeling of a sentence. This task is a classification project, and there are many sentences that the model should classify as <strong>'Good,' 'Bad,' </strong>and <strong>'Natural.'</strong> For instance, these models can classify a sentence like <strong>'The weather is great.'</strong> as a <strong>good</strong> feeling, <strong>'This story is terrible.'</strong> as a <strong>bad</strong> one, and <strong>'This is a book.'</strong> as a <strong>natural</strong> one. There are many models to analyze the feeling of a sentence, but here we implement four models based on the pictures below.
