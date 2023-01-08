@@ -30,6 +30,7 @@ You should follow the below steps to run this project and show results. The data
 
 ### How to run this project:
 1. Download the [Sentiment140 dataset](http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip) and [Glove_42B_300d](http://nlp.stanford.edu/data/glove.42B.300d.zip) as a word embedding and put **zip files** into the **original_data** folder.
+
 2. This dataset consists of more than **1 million** sentences from **Twitter** with many weird symbols that we need to clean this data and prepare them for the model, so run the below command to prepare and clean data. It takes a couple of hours. The **mode** parameter shows the destination model.
 
    * For the **Bert model**, run the below command:
@@ -40,6 +41,7 @@ You should follow the below steps to run this project and show results. The data
       ```
       python preparing_data.py --mode='LSTM' --glove42B_path ./original_data/glove.42B.300d.zip --original_dataset_path ./original_data/trainingandtestdata.zip
       ```
+      
 3. After preparing data, one of the below commands can use to train your model and show results. These commands are based on your selected final model. The results are stored in the **results** folder.
    * For **LSTM** model:
       ```
